@@ -1,0 +1,64 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 998 >>
+stream
+BT /F1 10 Tf 40 750 Td
+(ACME BANK) Tj
+0 -13 Td
+(Account **** 4821 - Statement period 02/08/2026 to 02/28/2026) Tj
+0 -13 Td
+() Tj
+0 -13 Td
+(Opening balance  4,554.94) Tj
+0 -13 Td
+() Tj
+0 -13 Td
+(DATE        DESCRIPTION                              AMOUNT      BALANCE) Tj
+0 -13 Td
+(------------------------------------------------------------------------) Tj
+0 -13 Td
+(01/12/2026  AMAZON MKTP US                               -39.99    4,554.94) Tj
+0 -13 Td
+(02/16/2026  BLUE BOTTLE COFFEE                            -5.40    4,549.54) Tj
+0 -13 Td
+(02/20/2026  PAYROLL DEPOSIT ACME INC                   2,400.00    6,949.54) Tj
+0 -13 Td
+(02/22/2026  ADJUSTMENT                                     0.00    6,949.54) Tj
+0 -13 Td
+(02/28/2026  NETFLIX SUBSCRIPTION                         -15.49    6,934.05) Tj
+0 -13 Td
+(------------------------------------------------------------------------) Tj
+0 -13 Td
+(Closing balance  6,934.05) Tj
+0 -13 Td
+() Tj
+0 -13 Td
+(Questions? Call 1-800-000-0000.) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000001290 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1358
+%%EOF

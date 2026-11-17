@@ -1,0 +1,8 @@
+StatementLint
+Copyright (c) 2026 StatementLint
+
+Builds on pdfplumber (https://github.com/jsvine/pdfplumber), MIT Licence,
+Copyright (c) 2015-2024 Jeremy Singer-Vine. pdfplumber is used unmodified as a
+runtime dependency for PDF text extraction. No other third-party code is bundled.
+
+StatementLint's layout parser, reconciliation engine, checks and scoring are original.

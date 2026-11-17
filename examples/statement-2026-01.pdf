@@ -1,0 +1,68 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 1178 >>
+stream
+BT /F1 10 Tf 40 750 Td
+(ACME BANK) Tj
+0 -13 Td
+(Account **** 4821 - Statement period 01/01/2026 to 01/31/2026) Tj
+0 -13 Td
+() Tj
+0 -13 Td
+(Opening balance  4,200.00) Tj
+0 -13 Td
+() Tj
+0 -13 Td
+(DATE        DESCRIPTION                              AMOUNT      BALANCE) Tj
+0 -13 Td
+(------------------------------------------------------------------------) Tj
+0 -13 Td
+(01/03/2026  WHOLE FOODS MKT 4821                         -84.12    4,115.88) Tj
+0 -13 Td
+(01/04/2026  PAYROLL DEPOSIT ACME INC                   2,400.00    6,515.88) Tj
+0 -13 Td
+(01/07/2026  STARBUCKS STORE 0441                          -6.75    6,509.13) Tj
+0 -13 Td
+(01/12/2026  AMAZON MKTP US                               -39.99    6,469.14) Tj
+0 -13 Td
+(01/20/2026  RENT PAYMENT JAN                          -1,850.00    4,619.14) Tj
+0 -13 Td
+(01/26/2026  SHELL OIL 57421                              -52.30    4,566.84) Tj
+0 -13 Td
+(01/31/2026  ACME SUBSCRIPTION                            -12.00    4,554.94) Tj
+0 -13 Td
+(------------------------------------------------------------------------) Tj
+0 -13 Td
+(Closing balance  4,554.74) Tj
+0 -13 Td
+() Tj
+0 -13 Td
+(Questions? Call 1-800-000-0000.) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000001471 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1539
+%%EOF

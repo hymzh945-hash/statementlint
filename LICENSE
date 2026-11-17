@@ -1,0 +1,38 @@
+StatementLint Business Source Licence 1.0
+
+Copyright (c) 2026 StatementLint. All rights reserved.
+
+1. GRANT OF USE
+   You may use this software, free of charge, for any purpose including commercial
+   and internal business use, on workbooks you own or are authorised to review.
+
+2. RESTRICTIONS
+   You may not (a) redistribute, publish, sublicense or sell the source code or a
+   substantial portion of it; (b) offer it as a hosted service to third parties;
+   (c) remove or alter this licence or the copyright notices; (d) use the StatementLint
+   name or marks to endorse a derived product without written permission.
+
+3. DERIVATIVE WORKS
+   Modifications made for your own internal use are permitted and need not be shared.
+   Distributing a modified version to anyone outside your organisation requires a
+   commercial licence.
+
+4. THIRD PARTY COMPONENTS
+   pdfplumber is distributed under the MIT Licence and remains under its own terms.
+   See NOTICE.
+
+5. NO WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+   FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS BE
+   LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM THE USE OF THE
+   SOFTWARE.
+
+6. AUDIT RESULTS ARE NOT ASSURANCE
+   StatementLint performs static analysis of formulas and cached values. A clean score
+   does not certify a workbook as correct, complete or fit for any purpose.
+
+7. TERMINATION
+   Rights under this licence terminate automatically if you breach its terms.
+
+For commercial licensing: statementlint.gumroad.com

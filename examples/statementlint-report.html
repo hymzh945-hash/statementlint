@@ -1,0 +1,57 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>StatementLint — statement-2026-01.pdf, statement-2026-02.pdf</title>
+<style>
+:root{--bg:#0b0f18;--panel:#121a29;--line:#22304a;--fg:#e8eef8;--muted:#8b9ab1;
+--accent:#38bdf8;--good:#34d399;--warn:#fbbf24;--bad:#f87171}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);
+font:14px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:1060px;margin:0 auto;padding:34px 24px 60px}
+h1{font-size:26px;margin:0 0 6px;letter-spacing:-.02em}
+h2{font-size:14px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:32px 0 10px}
+.sub{color:var(--muted);font-size:13px}
+.hero{display:flex;gap:20px;align-items:center;background:var(--panel);border:1px solid var(--line);
+border-radius:14px;padding:20px 22px;margin-top:18px}
+.hero .score{font-size:40px;font-weight:700;letter-spacing:-.03em;line-height:1}
+.hero .vt{font-size:15.5px;font-weight:650}
+.hero .vd{color:var(--muted);font-size:12.5px;margin-top:4px}
+.meta{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:12px;color:var(--muted);margin-top:12px}
+.meta b{color:var(--fg)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-top:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:13px 15px}
+.card .l{font-size:10.5px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
+.card .v{font-size:22px;font-weight:650;margin-top:5px}
+.card .f{font-size:10.5px;color:var(--muted);margin-top:2px}
+table{width:100%;border-collapse:collapse;margin-top:6px;font-size:12.5px}
+th{text-align:left;color:var(--muted);font-weight:600;font-size:10.5px;text-transform:uppercase;
+letter-spacing:.06em;border-bottom:1px solid var(--line);padding:7px 9px}
+td{padding:7px 9px;border-bottom:1px solid #1a2436;vertical-align:top}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.badge{display:inline-block;padding:1px 8px;border-radius:999px;font-size:10.5px;
+text-transform:uppercase;letter-spacing:.06em}
+.badge.high{background:rgba(248,113,113,.14);color:#f87171}
+.badge.medium{background:rgba(251,191,36,.14);color:#fbbf24}
+.badge.low{background:rgba(139,154,177,.14);color:#8b9ab1}
+.mono{font-family:ui-monospace,Menlo,monospace;font-size:11.5px;color:#cfe3f7}
+.lock{background:linear-gradient(135deg,#131c2c,#0d1420);border:1px dashed var(--line);
+border-radius:13px;padding:20px;text-align:center;margin-top:10px}
+.lock .t{font-weight:650} .lock .d{color:var(--muted);font-size:12.5px;margin:6px auto 12px;max-width:520px}
+.lock a{display:inline-block;background:var(--accent);color:#05121c;text-decoration:none;
+font-weight:650;padding:9px 17px;border-radius:9px;font-size:13px}
+footer{margin-top:40px;padding-top:14px;border-top:1px solid var(--line);color:var(--muted);
+font-size:11.5px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+</style></head><body><div class="wrap">
+<h1>StatementLint — reconciled ledger</h1>
+<div class="sub">Parsed from the PDFs, then checked step by step against the running balance.</div>
+<div class="hero"><div><div class="score" style="color:#f87171">34</div>
+<div class="sub">/ 100</div></div>
+<div><div class="vt" style="color:#f87171">Not reconciled — fix the breaks before trusting totals</div>
+<div class="vd">6 findings · 2 high ·
+3 medium · 1 low</div></div></div>
+<div class="meta"><span>files <b>statement-2026-01.pdf, statement-2026-02.pdf</b></span>
+<span>period <b>2026-01-01 → 2026-02-28</b></span>
+<span>generated <b>2026-11-18 03:01</b></span></div>
+<div class="cards"><div class="card"><div class="l">Score</div><div class="v">34</div><div class="f">/ 100</div></div><div class="card"><div class="l">Transactions</div><div class="v">12</div><div class="f">2 statement(s)</div></div><div class="card"><div class="l">Money in</div><div class="v">4,800.00</div><div class="f">credits</div></div><div class="card"><div class="l">Money out</div><div class="v">(2,106.04)</div><div class="f">debits</div></div><div class="card"><div class="l">Net</div><div class="v">2,693.96</div><div class="f">movements</div></div><div class="card"><div class="l">Breaks</div><div class="v">1</div><div class="f">balance mismatches</div></div></div>
+<h2>What was found</h2><table><thead><tr><th>Check</th><th>Count</th><th>Severity</th></tr></thead><tbody><tr><td class="">Balance chain breaks</td><td class="num">1</td><td class="num"><span class="badge high">high</span></td></tr><tr><td class="">Duplicate transactions</td><td class="num">1</td><td class="num"><span class="badge high">high</span></td></tr><tr><td class="">Gaps between statements</td><td class="num">1</td><td class="num"><span class="badge medium">medium</span></td></tr><tr><td class="">Opening + movements ≠ closing</td><td class="num">2</td><td class="num"><span class="badge medium">medium</span></td></tr><tr><td class="">Zero amounts</td><td class="num">1</td><td class="num"><span class="badge low">low</span></td></tr></tbody></table><h2>Where the chain breaks</h2><table><thead><tr><th>Date</th><th>Description</th><th>Expected balance</th><th>Statement says</th><th>Off by</th></tr></thead><tbody><tr><td class="">2026-01-31</td><td class="num">ACME SUBSCRIPTION</td><td class="num">4,554.84</td><td class="num">4,554.94</td><td class="num">+0.10</td></tr></tbody></table><h2>By month</h2><table><thead><tr><th>Month</th><th>Rows</th><th>In</th><th>Out</th><th>Net</th></tr></thead><tbody><tr><td class="">2026-01</td><td class="num">8</td><td class="num">2,400.00</td><td class="num">(2,085.15)</td><td class="num">314.85</td></tr><tr><td class="">2026-02</td><td class="num">4</td><td class="num">2,400.00</td><td class="num">(20.89)</td><td class="num">2,379.11</td></tr></tbody></table><h2>By category</h2><table><thead><tr><th>Category</th><th>Rows</th><th>In</th><th>Out</th></tr></thead><tbody><tr><td class="">Dining</td><td class="num">2</td><td class="num">0.00</td><td class="num">(12.15)</td></tr><tr><td class="">Groceries</td><td class="num">1</td><td class="num">0.00</td><td class="num">(84.12)</td></tr><tr><td class="">Housing</td><td class="num">1</td><td class="num">0.00</td><td class="num">(1,850.00)</td></tr><tr><td class="">Income</td><td class="num">2</td><td class="num">4,800.00</td><td class="num">0.00</td></tr><tr><td class="">Other</td><td class="num">1</td><td class="num">0.00</td><td class="num">0.00</td></tr><tr><td class="">Shopping</td><td class="num">2</td><td class="num">0.00</td><td class="num">(79.98)</td></tr><tr><td class="">Subscriptions</td><td class="num">2</td><td class="num">0.00</td><td class="num">(27.49)</td></tr><tr><td class="">Transport</td><td class="num">1</td><td class="num">0.00</td><td class="num">(52.30)</td></tr></tbody></table><h2>Findings</h2><table><thead><tr><th>Severity</th><th>Check</th><th>Where</th><th>Detail</th></tr></thead><tbody><tr><td class=""><span class="badge high">high</span></td><td class="num">duplicate_transaction</td><td class="num"><span class="mono">2026-01-12 · AMAZON MKTP US</span></td><td class="num">2 identical rows, amount -39.99 (files: statement-2026-01.pdf, statement-2026-02.pdf)</td></tr><tr><td class=""><span class="badge high">high</span></td><td class="num">balance_break</td><td class="num"><span class="mono">statement-2026-01.pdf · 2026-01-31</span></td><td class="num">ACME SUBSCRIPTION: balance should be 4,554.84, statement says 4,554.94 (off by +0.10)</td></tr><tr><td class=""><span class="badge medium">medium</span></td><td class="num">period_gap</td><td class="num"><span class="mono">&lt;statements&gt;</span></td><td class="num">8 days between 2026-01-31 and 2026-02-08 — transactions in that window are missing</td></tr><tr><td class=""><span class="badge medium">medium</span></td><td class="num">totals_mismatch</td><td class="num"><span class="mono">statement-2026-01.pdf</span></td><td class="num">opening 4,200.00 + movements 354.84 = 4,554.84, statement closes at 4,554.74</td></tr><tr><td class=""><span class="badge medium">medium</span></td><td class="num">totals_mismatch</td><td class="num"><span class="mono">statement-2026-02.pdf</span></td><td class="num">opening 4,554.94 + movements 2,339.12 = 6,894.06, statement closes at 6,934.05</td></tr><tr><td class=""><span class="badge low">low</span></td><td class="num">zero_amount</td><td class="num"><span class="mono">&lt;statement&gt;</span></td><td class="num">1 row(s) with a 0.00 amount</td></tr></tbody></table><footer><span>StatementLint 0.1.0 · built on pdfplumber (MIT)</span>
+<span>Text-based PDFs only; scanned statements need OCR first.</span></footer></div></body></html>
