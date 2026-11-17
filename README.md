@@ -90,6 +90,13 @@ statementlint demo -o /tmp/demo        # builds two statements with planted prob
 statementlint license
 ```
 
+## Pro edition
+
+The paid edition adds the HTML report templates, CSV exports, and an offline-verified signed
+licence — no server check, no telemetry. $29 once, yours to keep:
+
+https://hymz.gumroad.com/l/statementlint
+
 ## Built on
 
 `pdfplumber` (MIT) for PDF text extraction. StatementLint adds the layout parser, the
