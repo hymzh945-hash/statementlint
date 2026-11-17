@@ -7,3 +7,4 @@ dist/*.whl
 .venv*/
 .DS_Store
 pack/
+dist/*.tar.gz
